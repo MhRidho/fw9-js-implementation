@@ -1,6 +1,6 @@
 function reverseWords(teks) {
-    const reverseWordArr = teks.split(" ").map(word => word.split("").reverse().join(""));
+    const reverseWordArr = teks.split(" ").reverse();
     return reverseWordArr.join(" ");
 }
 
-console.log(reverseWords('Selamat Pagi'));
+console.log(reverseWords('Selamat Pagi Semuanya'));
